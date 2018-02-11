@@ -16,6 +16,14 @@ if ${1:condition}
 end
 endsnippet
 
+snippet ife "If/else statement" b
+if ${1:condition}
+	${0:${VISUAL}}
+else
+	$2
+end
+endsnippet
+
 snippet test "If test" b
 if test ${1:expression}
 	${0:${VISUAL}}
